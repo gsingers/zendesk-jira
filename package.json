@@ -1,0 +1,40 @@
+{
+  "name": "zendesk-jira-plugin",
+  "description": "Integrate JIRA and Zendesk On Premise.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gsingers/zendesk-jira-plugin",
+  "author": {
+    "name": "Grant Ingersoll",
+    "email": "gsingers@apache.org",
+    "url": "http://grantingersoll.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gsingers/zendesk-jira-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsingers/zendesk-jira-plugin/issues"
+  },
+  "licenses": [
+    {
+      "type": "ASL",
+      "url": "https://github.com/gsingers/zendesk-jira-plugin/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "request": "~2.60.0",
+    "underscore": "^1.7.0",
+    "node-zendesk": "1.1.5",
+    "jira": "0.9.2",
+    "q": "1.1.2",
+    "sleep":"3.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "zendesk",
+    "jira"
+  ]
+}
