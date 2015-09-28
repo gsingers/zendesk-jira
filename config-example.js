@@ -25,7 +25,7 @@ var config = {
   verbose: true,
   debug: true, // if true, it only runs once, else, the system runs at an interval of sleep time length until the program is exited
   run_jira: true,//if true, add comments from JIRA to Zendesk
-  run_zendesk: false, //if true, add comments from Zendesk to JIRA
+  run_zendesk: true, //if true, add comments from Zendesk to JIRA
 
   //Only look for issues after this time.
   //this value is only used for initial bootstrapping.  Once running, the
