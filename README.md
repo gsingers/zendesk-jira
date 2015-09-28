@@ -9,8 +9,22 @@ Vice-versa, many things on a JIRA are intended just for engineering and do not n
 This plugin differs from the On Premise Zendesk JIRA integration in that it only syncs comments that are explicitly marked for synchronization.  This is similar
 to Zendesk's hosted JIRA integration (i.e. JIRA On Demand or whatever it is called)
 
-# Prequisites
+# Usage
 
-# Configuration
+
+```javascript
+git clone https://github.com/gsingers/zendesk-jira.git
+cd zendesk-jira
+npm install
+```
+
+Copy the example configuration file (`config-example.js`) to one of your own naming and edit with your values.
+
+Save this to a file in the root of the project then run your bot with:
+
+    node your-config-file, eg.: node config-foo
+
+
+
 
 # Running
