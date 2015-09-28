@@ -36,5 +36,5 @@ var config = {
 };
 
 //DO NOT EDIT BELOW HERE
-var slackbot = new slackbot.Bot(config);
-slackbot.run();
+var theBot = new bot.Bot(config);
+theBot.run();
